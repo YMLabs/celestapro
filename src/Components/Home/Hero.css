@@ -1,0 +1,11 @@
+section.hero-section{
+    background: url("./stacked-waves.png") center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+section.deals-of-the-day{
+    background: url("./deals-bg.png") center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}

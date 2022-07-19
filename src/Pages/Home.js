@@ -1,10 +1,14 @@
 import React from 'react'
-import Hero from '../Components/HomeHero/Hero'
+import DealsOfTheDay from '../Components/Home/Deals/DealsOfTheDay'
+import Hero from '../Components/Home/Hero/Hero'
+import "../Components/Home/Hero.css"
 
 function Home() {
   return (
     <div>
         <Hero/>
+        <DealsOfTheDay/>
+        
     </div>
   )
 }

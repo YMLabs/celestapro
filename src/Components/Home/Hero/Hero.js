@@ -1,13 +1,12 @@
 import React from 'react'
-import "./Hero.css"
 
 function Hero() {
   return (
-    <section className='hero-section h-96'>
-        <div>
+    <section className='hero-section h-3/4'>
+        {/* <div>
             <img src="./assets/images/hero-components/stacked-waves.png" alt=""/>
-        </div>
-        <div className='flex items-center absolute top-32'>
+        </div> */}
+        <div className='flex items-center'>
             <div>
                 <img src="./assets/images/hero-components/hero-image.png" alt="" />
             </div>
