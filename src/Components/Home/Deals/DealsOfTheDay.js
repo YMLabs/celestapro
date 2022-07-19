@@ -4,8 +4,8 @@ import ProductCard from "./ProductCard";
 function DealsOfTheDay() {
   return (
     <section className="deals-of-the-day p-12 flex items-center">
-      <div className="p-8 w-1/5 text-center">
-        <h2 className="text-5xl p-4 italic">Deals of the Day</h2>
+      <div className="py-8 w-1/5">
+        <h2 className="text-5xl py-8 italic">Deals of the Day</h2>
         <button
           type="button"
           data-mdb-ripple="true"

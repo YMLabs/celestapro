@@ -1,4 +1,4 @@
-section.hero-section{
+section.hero-section, section.values{
     background: url("./stacked-waves.png") center center no-repeat;
     background-size: cover;
     object-fit: cover;

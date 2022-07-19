@@ -77,7 +77,7 @@ function ProductCard() {
           </span>
           <a
             href="#"
-            class="text-white bg-[#50B291] hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            class="text-white bg-[#50B291] hover:bg-emerald-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center transition duration-150 ease-in-out"
           >
             Add to cart
           </a>
