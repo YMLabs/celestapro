@@ -1,4 +1,4 @@
-section.hero-section,
+
 section.values {
   background: url("./stacked-waves.png") center center no-repeat;
   background-size: cover;
@@ -22,14 +22,12 @@ section.deals-of-the-day {
 }
 
 .item {
-  background: linear-gradient(to left, #15B4C5,#49DD80);
-  color: white;
-  padding: 1rem 3rem;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
   cursor: pointer;
+  border: 3px solid #50B291;
 }
 
 #item1 {

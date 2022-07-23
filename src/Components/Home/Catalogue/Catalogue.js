@@ -2,30 +2,56 @@ import React from "react";
 
 function Catalogue() {
   return (
-    <section className="catalogue flex items-center justify-evenly p-4 m-4">
-      <div>
-        <div className="container">
-          <a className="item rounded-xl shadow-md hover:shadow-xl transition ease-in-out duration-200" id="item1">
-            Content
-          </a>
-          <a className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200" id="item2">
-            Content
-          </a>
-          <a className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200" id="item3">
-            Content
-          </a>
-          <a className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200" id="item4">
-            Content
-          </a>
-          <a className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200" id="item5">
-            Content
-          </a>
-          <a className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200" id="item6">
-            Content
-          </a>
-        </div>
+    <div class="mx-auto my-16 py-4 grid w-8/12 grid-cols-3 grid-rows-3 gap-4 text-white">
+      <div class="row-span-2 flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <img
+          className="h-56"
+          src="./assets/images/catalogue/catalogue-1.png"
+          alt=""
+        />
+        <h3 className="text-2xl font-semibold">Devices</h3>
       </div>
-    </section>
+      <div class="col-span-2 flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <img
+          className="h-56"
+          src="./assets/images/catalogue/catalogue-2.png"
+          alt=""
+        />
+        <h3 className="text-2xl font-semibold">Fat Dissolving</h3>
+      </div>
+      <div class="row-span-2 flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <img
+          className="h-56"
+          src="./assets/images/catalogue/catalogue-3.png"
+          alt=""
+        />
+        <h3 className="text-2xl font-semibold">Hair Treatment</h3>
+      </div>
+      <div class="flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <img
+          className="h-56"
+          src="./assets/images/catalogue/catalogue-4.png"
+          alt=""
+        />
+        <h3 className="text-2xl font-semibold">Lifting Threads</h3>
+      </div>
+      <div class="flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <img
+          className="h-56"
+          src="./assets/images/catalogue/catalogue-4.png"
+          alt=""
+        />
+        <h3 className="text-2xl font-semibold">Pro Home Care</h3>
+      </div>
+      <div class="flex h-60 items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <img
+          className="h-56"
+          src="./assets/images/catalogue/catalogue-1.png"
+          alt=""
+        />
+        <h3 className="text-2xl font-semibold">Skin Care</h3>
+      </div>
+    </div>
   );
 }
 

@@ -1,7 +1,12 @@
 import React from "react";
-import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import {
+  BellIcon,
+  ChevronDownIcon,
+  MenuIcon,
+  XIcon,
+} from "@heroicons/react/outline";
+import { Link } from "react-router-dom";
 
 const navigation = [
   { name: "Shop", href: "#", current: false },
@@ -34,70 +39,94 @@ function Navbar() {
 
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="./assets/images/celestapro-logo.png"
-                    alt="CelestaPRO"
-                  />
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="./assets/images/celestapro-logo.png"
-                    alt="CelestaPRO"
-                  />
+                  <Link to="/">
+                    <img
+                      className="block lg:hidden h-8 w-auto"
+                      src="./assets/images/celestapro-logo.png"
+                      alt="CelestaPRO"
+                    />
+                  </Link>
+                  <Link to="/">
+                    <img
+                      className="hidden lg:block h-8 w-auto"
+                      src="./assets/images/celestapro-logo.png"
+                      alt="CelestaPRO"
+                    />
+                  </Link>
                 </div>
                 <div className="hidden flex-1 sm:block sm:ml-6">
                   <div className="flex justify-between items-center">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "uppercase bg-teal-100 text-white"
-                            : "uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white",
-                          "px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                    <a
+                      // className={classNames(
+                      //   item.current
+                      //     ? "uppercase bg-teal-100 text-white"
+                      //     : "uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white",
+                      //   "px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out"
+                      // )}
+                      className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
+                      // aria-current={item.current ? "page" : undefined}
+                    >
+                      Shop
+                    </a>
 
-                
-                      <div class="relative w-2/5">
-                        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-                          <svg
-                            aria-hidden="true"
-                            class="w-5 h-5 text-white"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2.5"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                            ></path>
-                          </svg>
-                        </div>
-                        <input
-                          type="search"
-                          id="default-search"
-                          class="block p-4 pl-10 w-full text-sm text-gray-100 bg-[#50B291] rounded-lg border border-gray-300 focus:outline-none font-semibold placeholder-white"
-                          placeholder="Search ..."
-                          required
-                        />
-                        <button
-                          type="submit"
-                          class=" absolute right-2.5 bottom-2.5 bg-white text-[#50B291] hover:bg-gray-200 focus:ring-emerald-100 font-medium rounded-lg text-sm px-4 py-2 border-transparent focus:border-transparent focus:ring-0"
+                    <Link to="/affiliate">
+                      <a
+                        className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
+                        // aria-current={item.current ? "page" : undefined}
+                      >
+                        Affiliate
+                      </a>
+                    </Link>
+                    <Link to="/wholesale">
+                      <a
+                        className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
+                        // aria-current={item.current ? "page" : undefined}
+                      >
+                        Wholesale
+                      </a>
+                    </Link>
+                    <Link to="/sale">
+                      <a
+                        className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
+                        // aria-current={item.current ? "page" : undefined}
+                      >
+                        Sale
+                      </a>
+                    </Link>
+
+                    <div class="relative w-2/5">
+                      <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                        <svg
+                          aria-hidden="true"
+                          class="w-5 h-5 text-white"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2.5"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Search
-                        </button>
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          ></path>
+                        </svg>
                       </div>
-                    
+                      <input
+                        type="search"
+                        id="default-search"
+                        class="block p-4 pl-10 w-full text-sm text-gray-100 bg-[#50B291] rounded-lg border border-gray-300 focus:outline-none font-semibold placeholder-white"
+                        placeholder="Search ..."
+                        required
+                      />
+                      <button
+                        type="submit"
+                        class=" absolute right-2.5 bottom-2.5 bg-white text-[#50B291] hover:bg-gray-200 focus:ring-emerald-100 font-medium rounded-lg text-sm px-4 py-2 border-transparent focus:border-transparent focus:ring-0"
+                      >
+                        Search
+                      </button>
+                    </div>
 
                     {/* user icon  */}
                     <a href="">

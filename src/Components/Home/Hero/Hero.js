@@ -7,12 +7,7 @@ function Hero() {
             <img src="./assets/images/hero-components/stacked-waves.png" alt=""/>
         </div> */}
         <div className='flex items-center'>
-            <div>
-                <img src="./assets/images/hero-components/hero-image.png" alt="" />
-            </div>
-            <div>
-                <img src="./assets/images/hero-components/hero-text.png" alt="" />
-            </div>
+            <img src="./assets/images/hero-components/banner.png" alt="" />
         </div>
     </section>
   )

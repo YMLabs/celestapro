@@ -1,0 +1,5 @@
+div.productonsale{
+    background: url("./sale-product-bg.png") center center no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}

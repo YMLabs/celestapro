@@ -1,19 +1,19 @@
 import React from "react";
 
-function ProductCard() {
+function ProductCard({productName, productImage, productPrice}) {
   return (
     <div class="max-w-sm bg-white rounded-lg shadow-md mx-4">
-      <a href="#">
+      <div className="flex justify-center">
         <img
-          class="p-4 rounded-t-lg"
-          src="./assets/images/product-image/product-img.png"
+          className="p-4 h-56 object-cover rounded-t-lg"
+          src={productImage}
           alt="product image"
         />
-      </a>
+      </div>
       <div class="px-5 pb-5">
         <a href="#">
           <h5 class="text-xl font-semibold tracking-tight text-gray-900">
-            Dr Nikolas Linde Premium Set 
+            {productName} 
           </h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
@@ -73,7 +73,7 @@ function ProductCard() {
         </div>
         <div class="flex justify-between items-center">
           <span class="text-3xl font-bold text-gray-900">
-            $599
+            ${productPrice}
           </span>
           <a
             href="#"

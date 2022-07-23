@@ -1,6 +1,6 @@
 import React from "react";
 
-function TestimonialCard() {
+function TestimonialCard({profilePicLocation, customerName, datePosted, review}) {
   return (
     <div class="bg-white w-full rounded-lg p-4 m-6 shadow-md hover:shadow-xl transition ease-in-out duration-200 sm:inline-block">
       <div class="flex items-start text-left">
@@ -9,7 +9,7 @@ function TestimonialCard() {
             <a href="#" class="block relative">
               <img
                 alt="profile"
-                src="./assets/images/profile-avatar.jpg"
+                src={profilePicLocation}
                 class="mx-auto object-cover rounded-full h-16 w-16 "
               />
             </a>
@@ -18,10 +18,10 @@ function TestimonialCard() {
         <div class="ml-6">
           <p class="flex items-baseline">
             <span class="text-[#50B291] font-bold">
-              A Msan
+              {customerName}
             </span>
             <span class="text-gray-500  ml-2 text-sm">
-              2 months ago
+              {datePosted}
             </span>
           </p>
           <div class="flex items-center mt-1">
@@ -78,9 +78,7 @@ function TestimonialCard() {
           </div>
           <div class="mt-3">
             <p class="mt-1 max-w-xs">
-              My first job of scanning photos at the Memories 2 Digital Photo
-              Scanning was fantastic. She completed the work quickly while I was
-              waiting. Thanks for a great service..
+              {review}
             </p>
           </div>
         </div>

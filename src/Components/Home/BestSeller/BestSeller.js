@@ -1,5 +1,5 @@
-import React from 'react'
-import ProductCard from '../Deals/ProductCard'
+import React from "react";
+import ProductCard from "../Deals/ProductCard";
 
 function BestSeller() {
   return (
@@ -16,13 +16,29 @@ function BestSeller() {
         </button>
       </div>
       <div className="flex">
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
-        <ProductCard/>
+        <ProductCard
+          productImage="./assets/images/product-image/product-1.png"
+          productName="Dr Nikolas Linde Premium Set"
+          productPrice="49"
+        />
+        <ProductCard
+          productImage="./assets/images/product-image/product-2.png"
+          productName="Aurora Glow SUn Base"
+          productPrice="37"
+        />
+        <ProductCard
+          productImage="./assets/images/product-image/product-3.png"
+          productName="Heparin Glycol Bentpla Gel"
+          productPrice="19"
+        />
+        <ProductCard
+          productImage="./assets/images/product-image/product-4.png"
+          productName="Bio Hyaluron Fluid Ampolue"
+          productPrice="39"
+        />
       </div>
     </section>
-  )
+  );
 }
 
-export default BestSeller
+export default BestSeller;
