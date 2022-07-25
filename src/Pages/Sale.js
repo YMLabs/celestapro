@@ -13,7 +13,7 @@ function Sale() {
       <h3 className="italic text-center text-4xl font-semibold p-4">
         Deals of the day
       </h3>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid lg:grid-cols-4 gap-4 md:grid-cols-2 sm:grid-cols-1">
         <ProductCard
           productImage="./assets/images/product-image/product-1.png"
           productName="Dr Nikolas Linde Premium Set"
@@ -56,7 +56,7 @@ function Sale() {
         />
       </div>
 
-      <div className="grid grid-cols-3 gap-4 mt-12 p-4">
+      <div className="grid lg:grid-cols-3 gap-4 mt-12 p-4  md:grid-cols-2 sm:grid-cols-1">
         <ProductOnSale />
         <ProductOnSale />
         <ProductOnSale />

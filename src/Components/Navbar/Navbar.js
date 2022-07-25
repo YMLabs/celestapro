@@ -9,9 +9,10 @@ import {
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Shop", href: "#", current: false },
-  { name: "For Partners", href: "#", current: false },
-  { name: "Sale", href: "#", current: false },
+  { name: "Shop", path: "#", current: false },
+  { name: "Affiliate", path: "/affiliate", current: false },
+  { name: "Wholesale", path: "/wholesale", current: false },
+  { name: "Sale", path: "/sale", current: false },
 ];
 
 function classNames(...classes) {
@@ -184,24 +185,27 @@ function Navbar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="md:hidden border-2 rounded-md mx-2">
             <div className="px-2 pt-2 pb-3 space-y-1">
+
               {navigation.map((item) => (
+                <Link to={item.path}>
                 <Disclosure.Button
                   key={item.name}
                   as="a"
-                  href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-neutral-900 hover:bg-teal-700 hover:text-white",
+                    ? "bg-gray-900 text-white"
+                    : "text-neutral-900 hover:bg-[#50B291] hover:text-white",
                     "block px-3 py-2 rounded-md text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
-                >
+                    )}
+                    aria-current={item.current ? "page" : undefined}
+                    >
                   {item.name}
                 </Disclosure.Button>
+                  </Link>
               ))}
+
             </div>
           </Disclosure.Panel>
         </>

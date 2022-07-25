@@ -7,10 +7,10 @@ function Wholesale() {
         <img src="./assets/images/wholesale/wholeseller-hero-pic.png" alt="" />
       </section>
       <section className="why-become-wholeseller px-4 mx-4 py-8">
-        <h2 className="text-3xl pl-4 ml-4 font-semibold">
+        <h2 className="text-3xl pl-4 ml-4 font-semibold text-center lg:text-left">
           Why become a online wholeseller?
         </h2>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col items-center p-4 m-4">
             <span className="text-center font-bold py-2 px-4 bg-[#50B291] text-white rounded-full">
               1
@@ -204,12 +204,12 @@ function Wholesale() {
 
       {/* How to sell to us? */}
       <section className="sell-to-us px-4 mx-4 py-8">
-        <h2 className="text-3xl pl-4 ml-4 font-semibold">How to sell to us?</h2>
-        <div className="grid grid-cols-7 gap-4 p-4 m-4">
+        <h2 className="text-3xl pl-4 ml-4 font-semibold text-center">How to sell to us?</h2>
+        <div className="grid md:grid-cols-7 sm:grid-cols-1 gap-4 p-4 m-4">
           <div className="flex flex-col items-start">
             <div className="flex justify-center">
               <img
-                className="h-40"
+                className="h-40 object-cover"
                 src="./assets/images/wholesale/how-to-sell/avatar.png"
                 alt=""
               />
@@ -222,7 +222,7 @@ function Wholesale() {
           <div className="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 rotate-90 md:rotate-0"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -236,7 +236,7 @@ function Wholesale() {
           <div className="flex flex-col items-start">
             <div className="flex justify-center">
               <img
-                className="h-40"
+                className="h-40 object-cover"
                 src="./assets/images/wholesale/how-to-sell/Note_list.png"
                 alt=""
               />
@@ -249,7 +249,7 @@ function Wholesale() {
           <div className="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 rotate-90 md:rotate-0"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -263,7 +263,7 @@ function Wholesale() {
           <div className="flex flex-col items-start">
             <div className="flex justify-center">
               <img
-                className="h-40"
+                className="h-40 object-cover"
                 src="./assets/images/wholesale/how-to-sell/growth.png"
                 alt=""
               />
@@ -276,7 +276,7 @@ function Wholesale() {
           <div className="flex justify-center items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 rotate-90 md:rotate-0"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
@@ -290,7 +290,7 @@ function Wholesale() {
           <div className="flex flex-col items-start justify-start">
             <div className="flex justify-center">
               <img
-                className="h-40"
+                className="h-40 object-cover"
                 src="./assets/images/wholesale/how-to-sell/money.png"
                 alt=""
               />

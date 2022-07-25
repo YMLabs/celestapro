@@ -4,12 +4,12 @@ function Footer() {
   return (
     <footer class="">
       <div class="p-10 bg-[#50B291] text-white">
-        <div class="w-full mx-auto text-center sm:text-left">
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 ml-4 md:ml-12">
+        <div class="w-full mx-auto text-center lg:text-left">
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-2 ml-4 md:ml-12">
             <div class="mb-5">
-              <h4 class="text-2xl pb-4 font-bold">
+              <div class=" pb-4 font-bold flex justify-center">
                 <img src="./assets/images/white-celesta-logo.png" alt="" />
-              </h4>
+              </div>
               <p>
                 <span>Business Registration Number: </span>447-35-0071
               </p>
