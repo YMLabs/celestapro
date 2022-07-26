@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/celestapro/static/css/main.13114abd.css",
+    "main.js": "/celestapro/static/js/main.7e62437c.js",
+    "static/js/787.67068396.chunk.js": "/celestapro/static/js/787.67068396.chunk.js",
+    "static/media/deals-bg.png": "/celestapro/static/media/deals-bg.6ec6c7db3bfa6b6a2970.png",
+    "static/media/sale-product-bg.png": "/celestapro/static/media/sale-product-bg.46d00605900a0ec4be58.png",
+    "static/media/stacked-waves.png": "/celestapro/static/media/stacked-waves.0469920cba23da31c7d5.png",
+    "index.html": "/celestapro/index.html",
+    "main.13114abd.css.map": "/celestapro/static/css/main.13114abd.css.map",
+    "main.7e62437c.js.map": "/celestapro/static/js/main.7e62437c.js.map",
+    "787.67068396.chunk.js.map": "/celestapro/static/js/787.67068396.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13114abd.css",
+    "static/js/main.7e62437c.js"
+  ]
+}
