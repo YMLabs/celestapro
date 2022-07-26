@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/celestapro" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="*" element={<Error404 />} />
         <Route path="/sale" element={<Sale />} />
         <Route path="/affiliate" element={<AffiliateMarketing />} />
