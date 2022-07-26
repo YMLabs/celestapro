@@ -2,7 +2,7 @@ import React from "react";
 
 function ProductCard({productName, productImage, productPrice}) {
   return (
-    <div class="max-w-sm bg-white rounded-lg shadow-md mx-4">
+    <div class="max-w-sm bg-white rounded-lg shadow-md m-4">
       <div className="flex justify-center">
         <img
           className="p-4 h-56 object-cover rounded-t-lg"

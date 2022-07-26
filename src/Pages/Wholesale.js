@@ -309,7 +309,7 @@ function Wholesale() {
         </h2>
 
         <div className="flex flex-col items-center p-4 m-4">
-          <form className="w-5/12 ">
+          <form className="lg:w-5/12 md:w-3/4 ">
             <div class="mb-6">
               <label
                 for="name"
