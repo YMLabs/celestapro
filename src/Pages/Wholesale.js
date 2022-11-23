@@ -310,83 +310,83 @@ function Wholesale() {
 
         <div className="flex flex-col items-center p-4 m-4">
           <form className="lg:w-5/12 md:w-3/4 ">
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="name"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Name
               </label>
               <input
                 type="text"
                 id="name"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Jane Doe"
                 required
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="email"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Email
               </label>
               <input
                 type="email"
                 id="email"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="example@mail.com"
                 required
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="phoneNumber"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Number
               </label>
               <input
                 type="number"
                 id="phoneNumber"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="+82-X-XXXX-XXXX"
                 required
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="website"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Website or Social Page (Facebook/Instagram/Twitter)
               </label>
               <input
                 type="text"
                 id="website"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="https://example.com"
                 required
               />
             </div>
 
-            <div class="flex items-start mb-6">
-              <div class="flex items-center h-5">
+            <div className="flex items-start mb-6">
+              <div className="flex items-center h-5">
                 <input
                   id="remember"
                   type="checkbox"
                   value=""
-                  class="w-4 h-4 accent-[#50B291] bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300"
+                  className="w-4 h-4 accent-[#50B291] bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300"
                   required
                 />
               </div>
               <label
                 for="remember"
-                class="ml-2 text-sm font-medium text-gray-900 "
+                className="ml-2 text-sm font-medium text-gray-900 "
               >
                 I agree to the{" "}
                 <a className="underline underline-offset-2" href="">
@@ -399,7 +399,7 @@ function Wholesale() {
               type="button"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
-              class="inline-block px-6 py-2.5 bg-[#50B291] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-emerald-600 hover:shadow-lg focus:bg-[#50B291] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out"
+              className="inline-block px-6 py-2.5 bg-[#50B291] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-emerald-600 hover:shadow-lg focus:bg-[#50B291] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out"
             >
               Submit Proposal
             </button>

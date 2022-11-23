@@ -23,8 +23,8 @@ function AffiliateMarketing() {
         </div>
       </section>
 
-      <div class="mx-auto my-16 py-4 grid w-8/12 grid-cols-3 grid-rows-3 gap-4 text-white">
-        <div class="row-span-2 flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+      <div className="mx-auto my-16 py-4 grid w-8/12 grid-cols-3 grid-rows-3 gap-4 text-white">
+        <div className="row-span-2 flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-28 w-28"
@@ -41,7 +41,7 @@ function AffiliateMarketing() {
           </svg>
           <h3 className="text-2xl font-semibold">WordWide Shipping</h3>
         </div>
-        <div class="col-span-2 flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <div className="col-span-2 flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-28 w-28"
@@ -58,7 +58,7 @@ function AffiliateMarketing() {
           </svg>
           <h3 className="text-2xl font-semibold">Flexible Settings</h3>
         </div>
-        <div class="row-span-2 flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <div className="row-span-2 flex flex-col items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-28 w-28"
@@ -80,7 +80,7 @@ function AffiliateMarketing() {
           </svg>
           <h3 className="text-2xl font-semibold">Get market insights</h3>
         </div>
-        <div class="flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <div className="flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-28 w-28"
@@ -97,7 +97,7 @@ function AffiliateMarketing() {
           </svg>
           <h3 className="text-2xl font-semibold">Case Studies</h3>
         </div>
-        <div class="flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <div className="flex items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-28 w-28"
@@ -114,7 +114,7 @@ function AffiliateMarketing() {
           </svg>
           <h3 className="text-2xl font-semibold">Market Research</h3>
         </div>
-        <div class="flex h-40 items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
+        <div className="flex h-40 items-center justify-center rounded-lg bg-gradient-to-r from-emerald-400 to-emerald-500 shadow-md hover:shadow-lg hover:shadow-emerald-500 shadow-emerald-400 transition ease-in-out duration-200">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-28 w-28"
@@ -266,72 +266,72 @@ function AffiliateMarketing() {
 
         <div className="flex flex-col items-center p-4 m-4">
           <form className="lg:w-5/12 md:w-3/4">
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="name"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Name
               </label>
               <input
                 type="text"
                 id="name"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Jane Doe"
                 required
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="email"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Email
               </label>
               <input
                 type="email"
                 id="email"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="example@mail.com"
                 required
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="phoneNumber"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Number
               </label>
               <input
                 type="number"
                 id="phoneNumber"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="+82-X-XXXX-XXXX"
                 required
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 for="website"
-                class="block mb-2 text-sm font-bold text-neutral-600"
+                className="block mb-2 text-sm font-bold text-neutral-600"
               >
                 Your Website or Social Page (Facebook/Instagram/Twitter)
               </label>
               <input
                 type="text"
                 id="website"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="https://example.com"
                 required
               />
             </div>
 
-            <div class="flex items-start mb-6">
-              <div class="flex items-center h-5">
+            <div className="flex items-start mb-6">
+              <div className="flex items-center h-5">
                 <input
                   id="remember"
                   type="checkbox"
@@ -342,7 +342,7 @@ function AffiliateMarketing() {
               </div>
               <label
                 for="remember"
-                class="ml-2 text-sm font-medium text-gray-900 "
+                className="ml-2 text-sm font-medium text-gray-900 "
               >
                 I agree to the{" "}
                 <a className="underline underline-offset-2" href="">
@@ -355,7 +355,7 @@ function AffiliateMarketing() {
               type="button"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
-              class="inline-block px-6 py-2.5 bg-[#50B291] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-emerald-600 hover:shadow-lg focus:bg-[#50B291] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out"
+              className="inline-block px-6 py-2.5 bg-[#50B291] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-emerald-600 hover:shadow-lg focus:bg-[#50B291] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out"
             >
               Submit Proposal
             </button>
