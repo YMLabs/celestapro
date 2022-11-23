@@ -1,5 +1,9 @@
 import React from "react";
 import ProductCard from "../Deals/ProductCard";
+import productImage1 from "../../../assets/product-image/product-1.png"
+import productImage2 from "../../../assets/product-image/product-2.png"
+import productImage3 from "../../../assets/product-image/product-3.png"
+import productImage4 from "../../../assets/product-image/product-4.png"
 
 function BestSeller() {
   return (
@@ -17,22 +21,22 @@ function BestSeller() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <ProductCard
-          productImage="./assets/images/product-image/product-1.png"
+          productImage={productImage1}
           productName="Dr Nikolas Linde Premium Set"
           productPrice="49"
         />
         <ProductCard
-          productImage="./assets/images/product-image/product-2.png"
+          productImage={productImage2}
           productName="Aurora Glow SUn Base"
           productPrice="37"
         />
         <ProductCard
-          productImage="./assets/images/product-image/product-3.png"
+          productImage={productImage3}
           productName="Heparin Glycol Bentpla Gel"
           productPrice="19"
         />
         <ProductCard
-          productImage="./assets/images/product-image/product-4.png"
+          productImage={productImage4}
           productName="Bio Hyaluron Fluid Ampolue"
           productPrice="39"
         />

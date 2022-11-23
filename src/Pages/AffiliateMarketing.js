@@ -2,7 +2,8 @@ import React from "react";
 import GreenBtn from "../Components/Buttons/GreenBtn";
 import Brands from "../Components/Home/Brands/Brands";
 import Marquee from "react-fast-marquee";
-
+import WhyChooseUsePic from "../assets/why-choose-us.png"
+import PaymentMethods from "../assets/brands/payment.png"
 function AffiliateMarketing() {
   return (
     <div>
@@ -133,104 +134,6 @@ function AffiliateMarketing() {
         </div>
       </div>
 
-      {/* <section className="catalogue  p-4 m-4">
-      <h2 className="text-4xl font-bold text-center">
-          What We Offer
-        </h2>
-        <div className="flex items-center justify-evenly p-4 m-4">
-          <div className="container">
-            <a
-              className="item rounded-xl shadow-md hover:shadow-xl transition ease-in-out duration-200"
-              id="item1"
-            >
-              <div className="">
-                <div className="text-right mb-12">
-                  <h2 className="text-3xl">Serum</h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <img
-                  className="h-56"
-                  src="./assets/images/catalogue/serum1.png"
-                  alt=""
-                />
-              </div>
-            </a>
-            <a
-              className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200"
-              id="item2"
-            >
-              <div className="flex justify-between items-center flex-row-reverse">
-                <div className="text-right mb-12">
-                  <h2 className="text-3xl">Serum</h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <img src="./assets/images/catalogue/serum2.png" alt="" />
-              </div>
-            </a>
-            <a
-              className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200"
-              id="item3"
-            >
-              <div className="">
-                <div className="flex flex-col justify-center mb-12">
-                  <h2 className="text-3xl">Serum</h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <img
-                  className=""
-                  src="./assets/images/catalogue/serum3.png"
-                  alt=""
-                />
-              </div>
-            </a>
-            <a
-              className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200"
-              id="item4"
-            >
-              <div className="flex items-center">
-                <div className="">
-                  <h2 className="text-3xl">Serum</h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <img
-                  className=""
-                  src="./assets/images/catalogue/serum1.png"
-                  alt=""
-                />
-              </div>
-            </a>
-            <a
-              className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200"
-              id="item5"
-            >
-              <div className="flex items-center">
-                <div className="mr-8">
-                  <h2 className="text-3xl">Serum</h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <img
-                  className=""
-                  src="./assets/images/catalogue/serum1.png"
-                  alt=""
-                />
-              </div>
-            </a>
-            <a
-              className="item rounded-xl shadow-md hover:shadow-lg transition ease-in-out duration-200"
-              id="item6"
-            >
-              <div className="flex justify-between items-center flex-row-reverse">
-                <div className="text-right mb-12">
-                  <h2 className="text-3xl">Serum</h2>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
-                <img src="./assets/images/catalogue/serum2.png" alt="" />
-              </div>
-            </a>
-          </div>
-        </div>
-      </section> */}
-
       <section className="why-choose-us flex flex-row-reverse items-center justify-evenly">
         <div className="w-2/6">
           <h2 className="text-4xl font-bold">Why Should You Choose Us</h2>
@@ -241,7 +144,7 @@ function AffiliateMarketing() {
           </p>
         </div>
         <div>
-          <img src="./assets/images/why-choose-us.png" alt="" />
+          <img src={WhyChooseUsePic} alt="" />
         </div>
       </section>
 
@@ -255,7 +158,7 @@ function AffiliateMarketing() {
           Supported Payment Methods
         </h2>
         <Marquee duration={10000} background="#fafafa" height="250px">
-          <img src="./assets/images/brands/payment.png" alt="" />
+          <img src={PaymentMethods} alt="" />
         </Marquee>
       </section>
 

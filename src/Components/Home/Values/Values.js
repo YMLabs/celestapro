@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Values() {
   return (
     <section className="values w-full justify-evenly my-8 px-12 pb-20 py-4 flex items-center">
@@ -17,7 +18,7 @@ function Values() {
           </svg>
           <h3 className="text-xl font-semibold">Worldwide Shipping</h3>
           <p>Free shipping for orders above $500 .</p>
-          <a className="font-bold text-neutral-500" href="">
+          <a className="font-bold text-neutral-500" href="example.com">
             Learn More
           </a>
         </div>

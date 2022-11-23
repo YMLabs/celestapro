@@ -1,13 +1,11 @@
 import React from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import {
-  BellIcon,
-  ChevronDownIcon,
   MenuIcon,
   XIcon,
 } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
-
+import Logo from "../../assets/celestapro-logo.png"
 const navigation = [
   { name: "Shop", path: "#", current: false },
   { name: "Affiliate", path: "/affiliate", current: false },
@@ -43,14 +41,14 @@ function Navbar() {
                   <Link to="/">
                     <img
                       className="block lg:hidden h-8 w-auto"
-                      src="./assets/images/celestapro-logo.png"
+                      src={Logo}
                       alt="CelestaPRO"
                     />
                   </Link>
                   <Link to="/">
                     <img
                       className="hidden lg:block h-8 w-auto"
-                      src="./assets/images/celestapro-logo.png"
+                      src={Logo}
                       alt="CelestaPRO"
                     />
                   </Link>
@@ -58,12 +56,7 @@ function Navbar() {
                 <div className="hidden flex-1 sm:block sm:ml-6">
                   <div className="flex justify-between items-center">
                     <a
-                      // className={classNames(
-                      //   item.current
-                      //     ? "uppercase bg-teal-100 text-white"
-                      //     : "uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white",
-                      //   "px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out"
-                      // )}
+                    href="example.com"
                       className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
                       // aria-current={item.current ? "page" : undefined}
                     >
@@ -72,6 +65,8 @@ function Navbar() {
 
                     <Link to="/affiliate">
                       <a
+                    href="example.com"
+
                         className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
                         // aria-current={item.current ? "page" : undefined}
                       >
@@ -80,6 +75,7 @@ function Navbar() {
                     </Link>
                     <Link to="/wholesale">
                       <a
+                    href="example.com"
                         className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
                         // aria-current={item.current ? "page" : undefined}
                       >
@@ -88,6 +84,8 @@ function Navbar() {
                     </Link>
                     <Link to="/sale">
                       <a
+                    href="example.com"
+
                         className="uppercase text-neutral-900 hover:bg-[#50B291] hover:text-white px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out cursor-pointer"
                         // aria-current={item.current ? "page" : undefined}
                       >
@@ -130,7 +128,7 @@ function Navbar() {
                     </div>
 
                     {/* user icon  */}
-                    <a href="">
+                    <a href="example.com">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="30"

@@ -1,4 +1,8 @@
 import React from "react";
+import HowToSellPic1 from "../assets/wholesale/how-to-sell/avatar.png"
+import HowToSellPic2 from "../assets/wholesale/how-to-sell/growth.png"
+import HowToSellPic3 from "../assets/wholesale/how-to-sell/money.png"
+import HowToSellPic4 from "../assets/wholesale/how-to-sell/Note_list.png"
 
 function Wholesale() {
   return (
@@ -210,7 +214,7 @@ function Wholesale() {
             <div className="flex justify-center">
               <img
                 className="h-40 object-cover"
-                src="./assets/images/wholesale/how-to-sell/avatar.png"
+                src={HowToSellPic1}
                 alt=""
               />
             </div>
@@ -237,7 +241,7 @@ function Wholesale() {
             <div className="flex justify-center">
               <img
                 className="h-40 object-cover"
-                src="./assets/images/wholesale/how-to-sell/Note_list.png"
+                src={HowToSellPic4}
                 alt=""
               />
             </div>
@@ -264,7 +268,7 @@ function Wholesale() {
             <div className="flex justify-center">
               <img
                 className="h-40 object-cover"
-                src="./assets/images/wholesale/how-to-sell/growth.png"
+                src={HowToSellPic2}
                 alt=""
               />
             </div>
@@ -291,7 +295,7 @@ function Wholesale() {
             <div className="flex justify-center">
               <img
                 className="h-40 object-cover"
-                src="./assets/images/wholesale/how-to-sell/money.png"
+                src={HowToSellPic3}
                 alt=""
               />
             </div>
